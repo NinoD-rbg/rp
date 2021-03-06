@@ -4,13 +4,11 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "Cache, Big things planned",
+details : "HOW DO I CLOSE IT",
 assets : {
-large_image : "cache",
-large_text : "Invite Cache today!" // THIS WILL SHOW AS "Playing <Status>" from the outisde
+large_image : "help_large",
+large_text : "HOW DO I CLOSE TERRARIA HELP" // THIS WILL SHOW AS "Playing <Status>" from the outisde
 },
-buttons : [{label : "Join the Support Server" , url : "https://discord.gg/uNKfBdQHUx"},{label : "Invite Cache",url : "https://discord.com/api/oauth2/authorize?client_id=792899384017682473&permissions=8&scope=bot"}]
-}
 })
 })
-client.login({ clientId : "804740685025771572" }).catch(console.error);
+client.login({ clientId : "817885477884526632" }).catch(console.error);
